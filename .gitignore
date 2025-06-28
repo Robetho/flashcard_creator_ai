@@ -1,0 +1,26 @@
+# Python specific
+*.pyc
+__pycache__/
+.ipynb_checkpoints
+.env
+venv/             # Inazuia folda ya virtual environment isipakiwe GitHub
+.venv/            # Njia nyingine ya venv
+
+# IDE specific (e.g., VS Code, IntelliJ/Android Studio)
+.vscode/
+.idea/            # Inazuia faili za configuration za IDE isipakiwe
+
+# Kivy/Buildozer (if any leftover files from previous issues)
+.buildozer/
+*.apk             # Inazuia APK files zisipakiwe (zinaweza kuwa zipo kimakosa)
+*.aab
+bin/
+build/
+dist/
+.buildozer
+
+# NLTK/spaCy data (downloaded locally, not part of code)
+# Hizi kwa kawaida hazipakiwi GitHub kwani hupakuliwa kwenye server
+# /Users/*/nltk_data/ # Mfano kwa macOS/Linux
+# /C:/Users/*/AppData/Roaming/nltk_data/ # Mfano kwa Windows
+# /opt/conda/envs/*/lib/python*/site-packages/spacy/data/*
